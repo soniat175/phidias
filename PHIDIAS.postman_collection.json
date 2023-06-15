@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "99cabe16-8e84-4857-b445-1f3d309402db",
+		"name": "PHIDIAS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18839514"
+	},
+	"item": [
+		{
+			"name": "Get Employee",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:81/PruebaTecnica/api/EmployeeApi.php?id=1069716479",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "81",
+					"path": [
+						"PruebaTecnica",
+						"api",
+						"EmployeeApi.php"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1069716479"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Employees",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:81/PruebaTecnica/api/EmployeeApi.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "81",
+					"path": [
+						"PruebaTecnica",
+						"api",
+						"EmployeeApi.php"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

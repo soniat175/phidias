@@ -1,0 +1,4 @@
+Id;Name;LastName;Age;Company
+1069716479;Sonia;Triviño;36;Phidias
+1007847166;Javier;Herrera;22;Refinancia
+1069735350;Danna;Triviño;14;Enel
